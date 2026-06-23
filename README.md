@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Code Club Dashboard
 
-## Getting Started
+## Prerequisites
 
-First, run the development server:
+Before you start, you should have:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [ ] A GitHub account
+- [ ] Git installed
+- [ ] Node.js installed (v18 or higher)
+- [ ] A code editor (VS Code recommended)
+- [ ] Access to this repository as a collaborator
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Setup
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Clone this repository**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   ```bash
+   git clone git@github.com:ajcumine/code-club-dashboard.git
+   cd code-club-dashboard
+   ```
 
-## Learn More
+2. **Install dependencies**
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Run the development server**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   npm run dev
+   ```
 
-## Deploy on Vercel
+4. **Open your browser**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   Go to [http://localhost:3000](http://localhost:3000)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Voting: What Should We Build?
+
+Before we start coding, the team will vote on what to build. Here are the options:
+
+### 🎉 Fun & Social
+
+1. **Team "About Us" Page** — Everyone adds a trading card with their photo, emoji, fun fact, and favorite tool. 🟢
+2. **Pet (or Plant) Gallery** — Upload a photo of your pet, plant, or favorite coffee mug with a caption. 🟢
+3. **Our Desk Setups** — Each pair adds a photo + list of their top 3 work tools. 🟢
+4. **Recipe Book** — Everyone adds their go-to recipe with ingredients and instructions. 🟢
+5. **Music Playlist** — Each pair adds a favorite album with cover art and why they love it. 🟢
+
+### 🛠️ Product & Work-Related
+
+6. **Product Ideas Board** — A grid of feature cards (title, description, impact, effort). 🟡
+7. **Design System Showcase** — A living style guide: colors, typography, buttons, badges, cards. 🟡
+8. **Weekly Wins Wall** — Each pair adds a card celebrating a recent team win. 🟢
+9. **Retro Board** — A 3-column layout: Went Well, To Improve, Action Items. 🟡
+10. **How We Work Wiki** — Multi-page docs for team processes (e.g., "How We Run Sprints"). 🟡
+
+### 🎮 Interactive & Game-Like
+
+11. **Trivia Quiz** — Each pair writes 3 questions + answers. Click to reveal. 🟡
+12. **Two Truths and a Lie** — Each person submits 3 statements. Click to reveal the lie. 🟡
+13. **Mood Tracker** — A simple dashboard showing team mood emoji + status. 🟢
+
+## 🗳️ How to Vote
+
+1. Pick your **top 3** favorites from the list above
+2. Share your picks in the room (or comment on this repo's voting issue)
+3. We'll build the winner together!
+
+## Today's Workflow
+
+1. Vote on the project
+2. Explore the starter code
+3. Work in pairs to add your feature
+4. Open a Pull Request
+5. Review another pair's PR
+6. Merge and see your changes go live 🚀
+
+## Helpful Commands
+
+| Command | What it does |
+|--------|-------------|
+| `git status` | See what's changed |
+| `git add <file>` | Stage a file |
+| `git commit -m "message"` | Commit staged changes |
+| `git push origin <branch>` | Push to GitHub |
+| `git pull origin main` | Get latest changes |
+| `git checkout -b <branch>` | Create and switch to a new branch |
